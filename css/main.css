@@ -1,5 +1,6 @@
 html {
 	background-color: #dedede;
+	margin: 0em 0em 0em .5em;
 }
 
 header {
@@ -38,7 +39,7 @@ nav a {
 	color: #fff;
 	text-decoration: none;
 	margin: .5em;
-	background-color: #99242d;
+	background-color: #030356;
 	padding: 1.5em;
 	border-radius: 5px;
 	display: inline-block;
@@ -58,7 +59,7 @@ h2, h3,h4 {
 
 p {
 	font-family: "Muli", sans-serif;
-	font-size: .50rem;
+	line-height: 1.3em;
 }
 
 .listtwo {
@@ -91,7 +92,6 @@ p {
 	font-family: "Merriweather", serif;
 	font-style: italic;
 	font-size: 1.5rem;
-	line-height: .25;
 }
 
 .unfortunately {
@@ -99,15 +99,52 @@ p {
 	font-family: "Muli", sans-serif;
 }
 
+figure {
+	border: .25em solid lightgrey;
+	border-radius: 1em;
+	margin: 1em;
+	background-color: #fff;
+	padding: .50em;
+}
+
+img {
+	width: 100%;
+}
+
 .imgcaption {
 	font-style: italic;
+	text-align: center;
+}
+
+figcaption {
+	padding: .5em .5em .75em .5em;
+}
+
+dd {
+	margin: 0em;
+	padding: 0em 0em .75em 0em;
 }
 
 dt {
 	font-weight: bold;
+	padding: 0.25em 0em .25em 0em;
+}
+
+h4 {
+	margin: .5em 0em .5em 0em;
+	padding: 0em;
 }
 
 ol {
-	list-style-type: none;
-	padding: 0;
+	list-style-type: circle;
+	margin: 0.25em 0em .25em 0em;
+}
+
+footer {
+	background-color: #9b8c8e;
+	padding: 0em 0em 1em 0em;
+}
+
+h4 {
+	padding: .5em 0em 0em .5em;
 }
