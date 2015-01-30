@@ -1,5 +1,11 @@
 html {
-	background-color: #adaaaa;
+	background-color: #dedede;
+}
+
+header {
+	background-color: #9b8c8e;
+	padding: 1em;
+	text-align: center;
 }
 
 h1 {
@@ -7,23 +13,35 @@ h1 {
 	color: #fff;
 	font-family: "Merriweather", serif;
 	font-size: 4rem;
-	line-height: .5;
+	line-height: 2rem;
+	margin: 0.5em;
+}
+
+nav {
+	background-color: #9b8c8e;
+	display: inline-block;
 	text-align: center;
-	padding: .5em;
+	padding: 0em 1em .5em 1em;
+}
+
+nav li {
+	display: inline-block;
 }
 
 .listone {
 	list-style-type: none;
-	padding: 0.75em;
+	padding: 0.5em;
 	font-family: "Muli", sans-serif;
-	text-align: center;
-	background-color: #99242d;
 }
 
-a {
+nav a {
 	color: #fff;
 	text-decoration: none;
-	display; inline-block
+	margin: .5em;
+	background-color: #99242d;
+	padding: 1.5em;
+	border-radius: 5px;
+	display: inline-block;
 }
 
 a:hover {
@@ -35,7 +53,7 @@ h2, h3,h4 {
 	color: #030356;
 	font-family: "Merriweather", serif;
 	font-size: 2rem;
-	line-height: .5;
+	line-height: 2rem;
 }
 
 p {
@@ -45,6 +63,8 @@ p {
 
 .listtwo {
 	list-style-type: lower-roman;
+	padding: 0em 2em;
+	margin: .5em;
 }
 
 .celestial {
